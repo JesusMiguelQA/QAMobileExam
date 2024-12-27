@@ -1,0 +1,24 @@
+serenity.project.name =Serenity QA Innovation Lab Mobile
+serenity.take.screenshots = AFTER_EACH_STEP
+webdriver.driver=appium
+appium.hub = http://localhost:4723
+
+
+#Android Capabilities
+appium.platformName=Android
+appium:platformVersion: 13
+appium:automationName: UiAutomator2
+appium:device:Android
+appium:deviceName: emulator-5554
+appium.app = C:\Users\PC\Desktop\QALabExam\QALab-MobileExam\src\test\resources\app\mda-2.0.2-23.apk
+appium:appPackage:com.saucelabs.mydemoapp.android
+appium:newCommandTimeout: 6000
+appium:appActivity:.view.activities.MainActivity
+
+serenity.take.screenshots=FOR_EACH_ACTION
+serenity.console.colors=true
+serenity.verbose.steps=true
+serenity.logging=VERBOSE
+
+webdriver.timeouts.implicitlywait=10000
+
